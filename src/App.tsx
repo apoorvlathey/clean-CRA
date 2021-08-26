@@ -13,7 +13,7 @@ function App() {
       borderBottomColor={underlineColor[colorMode]}
     >
       <Spacer flex="1" />
-      <Heading maxW={["302px", "4xl", "4xl", "4xl"]}>NFTPool</Heading>
+      <Heading maxW={["302px", "4xl", "4xl", "4xl"]}>Hello World</Heading>
       <Flex flex="1" justifyContent="flex-end">
         <Button onClick={toggleColorMode} rounded="full" h="40px" w="40px">
           {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
